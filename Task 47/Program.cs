@@ -18,6 +18,7 @@ static int userInput (string message, string message1)
     {
         Console.Write(message);
         if(int.TryParse(Console.ReadLine(), out int num))
+        if (num > 0)
             return num;
         Console.WriteLine(message1);
     }
