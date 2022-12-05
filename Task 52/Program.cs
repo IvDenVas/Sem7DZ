@@ -9,6 +9,7 @@ Console.Clear();
 
 int m = userInputCountRowsAndColumns("Введите количество строк: ", "Ошибка ввода!");
 int n = userInputCountRowsAndColumns("Введите количество столбцов: ", "Ошибка ввода!");
+
 int[,] array = GetArray(m, n, -50, 50);
 
 PrintArray(array);
