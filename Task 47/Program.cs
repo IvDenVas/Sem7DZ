@@ -30,7 +30,7 @@ double[,] GetArray(int m, int n, double minValue, double maxValue)
     {
         for (int j = 0; j < n; j++)
         {
-            result[i, j] = Math.Round(new Random().NextDouble() * 100, 2);
+            result[i, j] = Math.Round(new Random().NextDouble() + new Random().Next(-50,50), 2);
         }
     }
     return result;
