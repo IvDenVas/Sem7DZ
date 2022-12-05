@@ -17,7 +17,7 @@ int positionY = userInputIndexElement("Введите введите втору�
 PrintArray(array);
 OutputResult(array, positionX, positionY);
 
-int userInputCountRowsAndColumns (string message, string message1)
+int userInputCountRowsAndColumns (string message, string message1)//кол-во строк и столбцов строго от 1!!!
 {
     while(true)
     {
@@ -29,7 +29,7 @@ int userInputCountRowsAndColumns (string message, string message1)
     }
 }
 
-int userInputIndexElement (string message, string message1)
+int userInputIndexElement (string message, string message1)//индексы строго от 0!!!
 {
     while(true)
     {
